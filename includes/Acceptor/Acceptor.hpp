@@ -1,9 +1,9 @@
 #ifndef __ACCEPTOR__H__
 # define __ACCEPTOR_H__
 
-# include "tools/Socket/TCPPolicy.hpp"
-# include "tools/Socket/Socket.hpp"
-# include "tools/Multiplexer/IMultiplexer.hpp"
+# include "Sockets/TCPPolicy.hpp"
+# include "Sockets/Socket.hpp"
+# include "Multiplexer/IMultiplexer.hpp"
 
 namespace Sophie {
 
@@ -17,12 +17,12 @@ namespace Sophie {
   private:
     Acceptor();
 
-    void	Acceptor::_accept(Network::Socket<TCPPolicy>* s);
+    void	Acceptor::_accept(Network::Socket<Network::TCPPolicy>* s);
 
 
-    int					_port;
-    Network::Socket<TCPPolicy>		_acceptSocket;
-    Tools::IMultiplexer*		_multiplexer;
+    int						_port;
+    Network::Socket<Network::TCPPolicy>		_acceptSocket;
+    Tools::IMultiplexer*			_multiplexer;
   };
 }
 

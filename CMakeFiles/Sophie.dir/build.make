@@ -49,51 +49,51 @@ include CMakeFiles/Sophie.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Sophie.dir/flags.make
 
-CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o: CMakeFiles/Sophie.dir/flags.make
-CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o: tools/Socket/SockTraits.cpp
+CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o: CMakeFiles/Sophie.dir/flags.make
+CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o: tools/Sockets/SockTraits.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Socket/SockTraits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/SockTraits.cpp
 
-CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Socket/SockTraits.cpp > CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.i
+CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/SockTraits.cpp > CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.i
 
-CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Socket/SockTraits.cpp -o CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.s
+CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/SockTraits.cpp -o CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.s
 
-CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o.requires:
-.PHONY : CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o.requires
+CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o.requires:
+.PHONY : CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o.requires
 
-CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o.provides: CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o.provides.build
-.PHONY : CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o.provides
+CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o.provides: CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o.provides.build
+.PHONY : CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o.provides
 
-CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o.provides.build: CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o
+CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o.provides.build: CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o
 
-CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o: CMakeFiles/Sophie.dir/flags.make
-CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o: tools/Socket/TCPPolicy.cpp
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o: CMakeFiles/Sophie.dir/flags.make
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o: tools/Sockets/TCPPolicy.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Socket/TCPPolicy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/TCPPolicy.cpp
 
-CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Socket/TCPPolicy.cpp > CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.i
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/TCPPolicy.cpp > CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.i
 
-CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Socket/TCPPolicy.cpp -o CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.s
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/TCPPolicy.cpp -o CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.s
 
-CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o.requires:
-.PHONY : CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o.requires
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.requires:
+.PHONY : CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.requires
 
-CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o.provides: CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o.provides.build
-.PHONY : CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o.provides
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.provides: CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.provides.build
+.PHONY : CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.provides
 
-CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o.provides.build: CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.provides.build: CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o
 
 CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o: CMakeFiles/Sophie.dir/flags.make
 CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o: src/Acceptor/Acceptor.cpp
@@ -143,16 +143,16 @@ CMakeFiles/Sophie.dir/main.cpp.o.provides.build: CMakeFiles/Sophie.dir/main.cpp.
 
 # Object files for target Sophie
 Sophie_OBJECTS = \
-"CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o" \
-"CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o" \
+"CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o" \
+"CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o" \
 "CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o" \
 "CMakeFiles/Sophie.dir/main.cpp.o"
 
 # External object files for target Sophie
 Sophie_EXTERNAL_OBJECTS =
 
-Sophie: CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o
-Sophie: CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o
+Sophie: CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o
+Sophie: CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o
 Sophie: CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o
 Sophie: CMakeFiles/Sophie.dir/main.cpp.o
 Sophie: CMakeFiles/Sophie.dir/build.make
@@ -164,8 +164,8 @@ Sophie: CMakeFiles/Sophie.dir/link.txt
 CMakeFiles/Sophie.dir/build: Sophie
 .PHONY : CMakeFiles/Sophie.dir/build
 
-CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o.requires
-CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o.requires
+CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o.requires
+CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.requires
 CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o.requires
 CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/main.cpp.o.requires
 .PHONY : CMakeFiles/Sophie.dir/requires

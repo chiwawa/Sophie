@@ -7,7 +7,6 @@
 
 #include "SockTraits.hpp"
 #include "Sockets/ISocket.hpp"
-#include "api/IConnection.hpp"
 
 namespace Network
 {
@@ -73,15 +72,15 @@ namespace Network
       return ProtPolicy::write(fd, buffer, s);
     }
 
-	ssize_t					api_read(zia::api::Resource fd, void *buffer, size_t s)
-	{
-		return ProtPolicy::write((SockTraits::SockDescriptor)fd, buffer, s);
-	}
+    ssize_t					api_read(SockTraits::SockDescriptor fd, void *buffer, size_t s)
+    {
+      return ProtPolicy::write(fd, buffer, s);
+    }
 
-	ssize_t					api_write(zia::api::Resource fd, void *buffer, size_t s)
-	{
-		return ProtPolicy::read((SockTraits::SockDescriptor)fd, buffer, s);
-	}
+    ssize_t					api_write(SockTraits::SockDescriptor fd, void *buffer, size_t s)
+    {
+      return ProtPolicy::read(fd, buffer, s);
+    }
 
   private:
     int				_errcode;

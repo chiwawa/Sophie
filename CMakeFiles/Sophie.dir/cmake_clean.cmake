@@ -1,6 +1,6 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o"
-  "CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o"
+  "CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o"
+  "CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o"
   "CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o"
   "CMakeFiles/Sophie.dir/main.cpp.o"
   "Sophie.pdb"

@@ -159,53 +159,53 @@ src/Acceptor/Acceptor.cpp.s:
 	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.s
 .PHONY : src/Acceptor/Acceptor.cpp.s
 
-tools/Socket/SockTraits.o: tools/Socket/SockTraits.cpp.o
-.PHONY : tools/Socket/SockTraits.o
+tools/Sockets/SockTraits.o: tools/Sockets/SockTraits.cpp.o
+.PHONY : tools/Sockets/SockTraits.o
 
 # target to build an object file
-tools/Socket/SockTraits.cpp.o:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o
-.PHONY : tools/Socket/SockTraits.cpp.o
+tools/Sockets/SockTraits.cpp.o:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o
+.PHONY : tools/Sockets/SockTraits.cpp.o
 
-tools/Socket/SockTraits.i: tools/Socket/SockTraits.cpp.i
-.PHONY : tools/Socket/SockTraits.i
+tools/Sockets/SockTraits.i: tools/Sockets/SockTraits.cpp.i
+.PHONY : tools/Sockets/SockTraits.i
 
 # target to preprocess a source file
-tools/Socket/SockTraits.cpp.i:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.i
-.PHONY : tools/Socket/SockTraits.cpp.i
+tools/Sockets/SockTraits.cpp.i:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.i
+.PHONY : tools/Sockets/SockTraits.cpp.i
 
-tools/Socket/SockTraits.s: tools/Socket/SockTraits.cpp.s
-.PHONY : tools/Socket/SockTraits.s
+tools/Sockets/SockTraits.s: tools/Sockets/SockTraits.cpp.s
+.PHONY : tools/Sockets/SockTraits.s
 
 # target to generate assembly for a file
-tools/Socket/SockTraits.cpp.s:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.s
-.PHONY : tools/Socket/SockTraits.cpp.s
+tools/Sockets/SockTraits.cpp.s:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.s
+.PHONY : tools/Sockets/SockTraits.cpp.s
 
-tools/Socket/TCPPolicy.o: tools/Socket/TCPPolicy.cpp.o
-.PHONY : tools/Socket/TCPPolicy.o
+tools/Sockets/TCPPolicy.o: tools/Sockets/TCPPolicy.cpp.o
+.PHONY : tools/Sockets/TCPPolicy.o
 
 # target to build an object file
-tools/Socket/TCPPolicy.cpp.o:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o
-.PHONY : tools/Socket/TCPPolicy.cpp.o
+tools/Sockets/TCPPolicy.cpp.o:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o
+.PHONY : tools/Sockets/TCPPolicy.cpp.o
 
-tools/Socket/TCPPolicy.i: tools/Socket/TCPPolicy.cpp.i
-.PHONY : tools/Socket/TCPPolicy.i
+tools/Sockets/TCPPolicy.i: tools/Sockets/TCPPolicy.cpp.i
+.PHONY : tools/Sockets/TCPPolicy.i
 
 # target to preprocess a source file
-tools/Socket/TCPPolicy.cpp.i:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.i
-.PHONY : tools/Socket/TCPPolicy.cpp.i
+tools/Sockets/TCPPolicy.cpp.i:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.i
+.PHONY : tools/Sockets/TCPPolicy.cpp.i
 
-tools/Socket/TCPPolicy.s: tools/Socket/TCPPolicy.cpp.s
-.PHONY : tools/Socket/TCPPolicy.s
+tools/Sockets/TCPPolicy.s: tools/Sockets/TCPPolicy.cpp.s
+.PHONY : tools/Sockets/TCPPolicy.s
 
 # target to generate assembly for a file
-tools/Socket/TCPPolicy.cpp.s:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.s
-.PHONY : tools/Socket/TCPPolicy.cpp.s
+tools/Sockets/TCPPolicy.cpp.s:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.s
+.PHONY : tools/Sockets/TCPPolicy.cpp.s
 
 # Help Target
 help:
@@ -222,12 +222,12 @@ help:
 	@echo "... src/Acceptor/Acceptor.o"
 	@echo "... src/Acceptor/Acceptor.i"
 	@echo "... src/Acceptor/Acceptor.s"
-	@echo "... tools/Socket/SockTraits.o"
-	@echo "... tools/Socket/SockTraits.i"
-	@echo "... tools/Socket/SockTraits.s"
-	@echo "... tools/Socket/TCPPolicy.o"
-	@echo "... tools/Socket/TCPPolicy.i"
-	@echo "... tools/Socket/TCPPolicy.s"
+	@echo "... tools/Sockets/SockTraits.o"
+	@echo "... tools/Sockets/SockTraits.i"
+	@echo "... tools/Sockets/SockTraits.s"
+	@echo "... tools/Sockets/TCPPolicy.o"
+	@echo "... tools/Sockets/TCPPolicy.i"
+	@echo "... tools/Sockets/TCPPolicy.s"
 .PHONY : help
 
 

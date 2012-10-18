@@ -6,7 +6,12 @@ CMakeFiles/Sophie.dir/main.cpp.o: main.cpp
 CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o: src/Acceptor/Acceptor.cpp
 CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o: includes/Acceptor/Acceptor.hpp
 
-CMakeFiles/Sophie.dir/tools/Socket/SockTraits.cpp.o: tools/Socket/SockTraits.cpp
+CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o: tools/Sockets/SockTraits.cpp
+CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o: tools/Sockets/SockTraits.hpp
 
-CMakeFiles/Sophie.dir/tools/Socket/TCPPolicy.cpp.o: tools/Socket/TCPPolicy.cpp
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o: tools/Sockets/TCPPolicy.cpp
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o: tools/Sockets/ISocket.hpp
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o: tools/Sockets/SockTraits.hpp
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o: tools/Sockets/Socket.hpp
+CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o: tools/Sockets/TCPPolicy.hpp
 

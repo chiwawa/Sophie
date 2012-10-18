@@ -3,9 +3,9 @@
 
 #include <list>
 
-# include "Sockets/Socket.hpp"
-# include "Sockets/TCPPolicy.hpp"
-# include "api/Callback.hpp"
+# include "tools/Sockets/Socket.hpp"
+# include "tools/Sockets/TCPPolicy.hpp"
+# include "tools/Callback/Callback.hpp"
 
 typedef zia::api::Callback<void ( Network::ISocket*)>  ioCallback;
 

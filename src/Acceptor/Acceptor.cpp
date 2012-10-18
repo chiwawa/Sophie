@@ -26,7 +26,7 @@ namespace Sophie {
     Network::Socket<Network::TCPPolicy>* accepted;
 
     accepted = s->accept();
-    if (accept == NULL) std::cerr << "Error while accepting client" << std::endl;
+    if (accepted == NULL) std::cerr << "Error while accepting client" << std::endl;
     else {
       std::cout << "Accepted : " << static_cast<int>(accepted->getSocket()->getDescriptor()) << std::endl;
     }

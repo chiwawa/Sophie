@@ -25,6 +25,8 @@ namespace Tools
     _evTab[IMultiplexer::READ].events = EPOLLIN | EPOLLPRI;
     _cbTab[IMultiplexer::READ] = read;
 
+    std::cout << "read == " << std::hex << read << std::endl;
+
     _evTab[IMultiplexer::WRITE].events = EPOLLOUT;
     _cbTab[IMultiplexer::WRITE] = write;
 
@@ -107,7 +109,6 @@ namespace Tools
 
   }
 
-
   int Multiplexer::process(void)
   {
     if ((_resNbr = epoll_wait(this->_efd, this->_eventsRes, this->_nbrMax, _timeOut)) < 0)
@@ -121,7 +122,10 @@ namespace Tools
 
     for (int index = 0;index < _resNbr; ++index)
       {
+	std::cout << "index == " << index << std::endl;
 	current = reinterpret_cast<socketCallback*>(_eventsRes[index].data.ptr);
+	current->callback = reinterpret_cast<ioCallback*>(_eventsRes[index].data.ptr);
+	current->socket = reinterpret_cast<Network::ISocket*>(_eventsRes[index].data.ptr);
 	if (!(_eventsRes[index].events & EPOLLHUP)
 	    && !(_eventsRes[index].events & EPOLLERR))
 	  {
@@ -138,9 +142,8 @@ namespace Tools
 	    if (current->socket == NULL)
 	      std::cout << "socket est null" << std::endl;
 	    else
-	      std::cout << "Add current : " << std::hex << current->socket << std::endl;
-	    std::cout << "GAH ?!" << std::endl;
-	    (*(current->callback))(current->socket);
+	      std::cout << "Add current->socket : " << std::hex << current->socket << std::endl;
+	    //	     (*(current->callback))(current->socket);
 	  }
 	else if (_eventsRes[index].events & EPOLLERR)
 	  {

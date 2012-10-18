@@ -22,6 +22,17 @@ namespace Sophie {
   }
 #endif
 
+  void	Acceptor::_accept(Network::ISocket* s) {
+    Network::ISocket* accepted;
+
+    std::cout << "Debug accept acceptor" << std::endl;
+    accepted = s->accept();
+    if (accepted == NULL) std::cerr << "Error while accepting client" << std::endl;
+    else {
+      std::cout << "Accepted : " << static_cast<int>(accepted->getDescriptor()) << std::endl;
+    }
+  }
+
   bool	Acceptor::init() {
     this->_acceptSocket = new Network::Socket<Network::TCPPolicy>();
     if (this->_acceptSocket->bind("any", this->_port) == 0) {
@@ -40,17 +51,6 @@ namespace Sophie {
     this->_multiplexer->addSocket(this->_acceptSocket, Tools::IMultiplexer::READ);
 
     return true;
-  }
-
-  void	Acceptor::_accept(Network::ISocket* s) {
-    Network::ISocket* accepted;
-
-    std::cout << "Debug accept acceptor" << std::endl;
-    accepted = s->accept();
-    if (accepted == NULL) std::cerr << "Error while accepting client" << std::endl;
-    else {
-      std::cout << "Accepted : " << static_cast<int>(accepted->getDescriptor()) << std::endl;
-    }
   }
 
   void	Acceptor::run()

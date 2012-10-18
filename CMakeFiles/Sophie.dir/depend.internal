@@ -3,6 +3,7 @@
 
 CMakeFiles/Sophie.dir/main.cpp.o
  /home/labell_s/Astek/git/Sophie/main.cpp
+ includes/Acceptor/Acceptor.hpp
  includes/Server/Server.hpp
  tools/Callback/Callback.hpp
  tools/Callback/defines.hpp
@@ -29,6 +30,7 @@ CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o
  tools/Sockets/TCPPolicy.hpp
 CMakeFiles/Sophie.dir/src/Server/Server.cpp.o
  /home/labell_s/Astek/git/Sophie/src/Server/Server.cpp
+ includes/Acceptor/Acceptor.hpp
  includes/Server/Server.hpp
  tools/Callback/Callback.hpp
  tools/Callback/defines.hpp

@@ -1,9 +1,11 @@
 #ifndef __TRANSFORM_HPP__
 # define __TRANSFORM_HPP__
 
+# include "GameEngine/Component/Component.hpp"
+
 namespace Sophie {
 
-  struct Position {
+  struct Position : public Component {
     int	x;
     int	y;
   }

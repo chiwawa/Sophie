@@ -4,7 +4,7 @@
 #include "GameEngine/Component/Component.hpp"
 
 namespace Sophie {
-  class RigidBody : public Component {
+  class RigidBody {
 
   public:
     RigidBody(Entity *e);

@@ -4,24 +4,28 @@
 # include "Sockets/TCPPolicy.hpp"
 # include "Sockets/Socket.hpp"
 # include "Multiplexer/IMultiplexer.hpp"
+//# include "Server/Server.hpp"
 
 namespace Sophie {
+
+  class Server;
 
   class Acceptor {
 
   public:
-    Acceptor(int port);
+    Acceptor(int port, Server &server);
 
     bool	init();
+    void	run();
 
   private:
     Acceptor();
 
-    void	Acceptor::_accept(Network::Socket<Network::TCPPolicy>* s);
-
+    void	_accept(Network::ISocket* s);
 
     int						_port;
-    Network::Socket<Network::TCPPolicy>		_acceptSocket;
+    Server					&_server;
+    Network::Socket<Network::TCPPolicy>		*_acceptSocket;
     Tools::IMultiplexer*			_multiplexer;
   };
 }

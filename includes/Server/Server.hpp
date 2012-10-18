@@ -1,29 +1,31 @@
 #ifndef				SERVER_HPP
 # define			SERVER_HPP
 
-# include "tools/Socket/TCPPolicy.hpp"
-# include "tools/Socket/Socket.hpp"
-# include "tools/Multiplexer/IMultiplexer.hpp"
+# include "Sockets/TCPPolicy.hpp"
+# include "Sockets/Socket.hpp"
+# include "Multiplexer/IMultiplexer.hpp"
+# include "Acceptor/Acceptor.hpp"
+# include <sys/socket.h>
 
-namespace			Sophie
+
+namespace				Sophie
 {
-  class				Server
+  class					Server
   {
-  private:
-    int				_port;
-    Network::Socket<TCPPolicy>	_socketServer;
-    Tools::IMultiplexer*	_multiplexer;
-    std::list<Network::ISocket*> _socketList;
-
-    void			Server::_accept();
-    static void			addSocketInList(<Network::ISocket*);
-
   public:
     Server(int port = 4242);
     ~Server();
 
-    bool		createServer();
-    bool		isRunnig();
+    bool				run();
+
+  private:
+    int					_port;
+    Acceptor				_acceptor;
+    Network::Socket<Network::TCPPolicy>	*_socketServer;
+    Tools::IMultiplexer*		_multiplexer;
+    std::list<Network::ISocket*>	_socketList;
+
+    void				addSocketInList(Network::ISocket*);
   };
 }
 #endif

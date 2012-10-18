@@ -29,7 +29,7 @@ namespace Tools
     virtual void			addSockets(const std::list<Network::ISocket*>&, const IMultiplexer::flag = IMultiplexer::READ) = 0;
     virtual void			addSockets(const std::list<Network::ISocket*>&, ioCallback&, const IMultiplexer::flag = IMultiplexer::READ) = 0;
     virtual void			clear(const IMultiplexer::flag = IMultiplexer::READ) = 0;
-    virtual int			process(void) = 0;
+    virtual int				process(void) = 0;
     virtual void			execute(void) = 0;
   };
 }

@@ -7,31 +7,28 @@
 # include "Sockets/Socket.hpp"
 # include "Sockets/TCPPolicy.hpp"
 
-namespace zia
+namespace Tools
 {
-  namespace Tools
-    {
-      class lightMultiplexer
-      {
-      public:
-	lightMultiplexer(IMultiplexer::flag, ioCallback*, Network::ISocket*, int = DEFAULT_TIMEOUT);
-	~lightMultiplexer();
-	lightMultiplexer(const lightMultiplexer&);
-	lightMultiplexer& operator=(const lightMultiplexer&);
+  class lightMultiplexer
+  {
+  public:
+    lightMultiplexer(Tools::IMultiplexer::flag, ioCallback*, Network::ISocket*, int = DEFAULT_TIMEOUT);
+    ~lightMultiplexer();
+    lightMultiplexer(const lightMultiplexer&);
+    lightMultiplexer& operator=(const lightMultiplexer&);
 
-	int			process(void);
-	void			execute(void);
+    int			process(void);
+    void			execute(void);
 
-      private:
-	int			_eventNbr;
-	int			_queueFd;
-	int			_timeOut;
-	struct epoll_event*	_evlist;
-	struct epoll_event*	_eventRes;
-	Network::ISocket*	_socket;
-	ioCallback*		_callback;
-      };
-    }
+  private:
+    int			_eventNbr;
+    int			_queueFd;
+    int			_timeOut;
+    struct epoll_event*	_evlist;
+    struct epoll_event*	_eventRes;
+    Network::ISocket*	_socket;
+    ioCallback*		_callback;
+  };
 }
 
 #endif /* __LIGHTEPOLL__ */

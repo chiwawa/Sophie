@@ -4,15 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/labell_s/Astek/git/Sophie/main.cpp" "/home/labell_s/Astek/git/Sophie/CMakeFiles/Sophie.dir/main.cpp.o"
-  "/home/labell_s/Astek/git/Sophie/src/Acceptor/Acceptor.cpp" "/home/labell_s/Astek/git/Sophie/CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o"
-  "/home/labell_s/Astek/git/Sophie/src/Server/Server.cpp" "/home/labell_s/Astek/git/Sophie/CMakeFiles/Sophie.dir/src/Server/Server.cpp.o"
-  "/home/labell_s/Astek/git/Sophie/tools/Multiplexer/epoll.cpp" "/home/labell_s/Astek/git/Sophie/CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o"
-  "/home/labell_s/Astek/git/Sophie/tools/Multiplexer/lightEpoll.cpp" "/home/labell_s/Astek/git/Sophie/CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o"
-  "/home/labell_s/Astek/git/Sophie/tools/Sockets/SockTraits.cpp" "/home/labell_s/Astek/git/Sophie/CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o"
-  "/home/labell_s/Astek/git/Sophie/tools/Sockets/TCPPolicy.cpp" "/home/labell_s/Astek/git/Sophie/CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o"
+  "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/main.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/main.cpp.o"
+  "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/src/Acceptor/Acceptor.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o"
+  "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/src/Server/Server.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/src/Server/Server.cpp.o"
+  "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/epoll.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o"
+  "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/lightEpoll.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o"
+  "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/SockTraits.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o"
+  "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/TCPPolicy.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o"
   )
-SET(CMAKE_CXX_COMPILER_ID "GNU")
+SET(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES

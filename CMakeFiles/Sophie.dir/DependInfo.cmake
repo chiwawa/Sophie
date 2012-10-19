@@ -7,8 +7,6 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/main.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/main.cpp.o"
   "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/src/Acceptor/Acceptor.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o"
   "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/src/Server/Server.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/src/Server/Server.cpp.o"
-  "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/epoll.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o"
-  "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/lightEpoll.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o"
   "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/SockTraits.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o"
   "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/TCPPolicy.cpp" "/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o"
   )

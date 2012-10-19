@@ -183,54 +183,6 @@ src/Server/Server.cpp.s:
 	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/src/Server/Server.cpp.s
 .PHONY : src/Server/Server.cpp.s
 
-tools/Multiplexer/epoll.o: tools/Multiplexer/epoll.cpp.o
-.PHONY : tools/Multiplexer/epoll.o
-
-# target to build an object file
-tools/Multiplexer/epoll.cpp.o:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o
-.PHONY : tools/Multiplexer/epoll.cpp.o
-
-tools/Multiplexer/epoll.i: tools/Multiplexer/epoll.cpp.i
-.PHONY : tools/Multiplexer/epoll.i
-
-# target to preprocess a source file
-tools/Multiplexer/epoll.cpp.i:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.i
-.PHONY : tools/Multiplexer/epoll.cpp.i
-
-tools/Multiplexer/epoll.s: tools/Multiplexer/epoll.cpp.s
-.PHONY : tools/Multiplexer/epoll.s
-
-# target to generate assembly for a file
-tools/Multiplexer/epoll.cpp.s:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.s
-.PHONY : tools/Multiplexer/epoll.cpp.s
-
-tools/Multiplexer/lightEpoll.o: tools/Multiplexer/lightEpoll.cpp.o
-.PHONY : tools/Multiplexer/lightEpoll.o
-
-# target to build an object file
-tools/Multiplexer/lightEpoll.cpp.o:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o
-.PHONY : tools/Multiplexer/lightEpoll.cpp.o
-
-tools/Multiplexer/lightEpoll.i: tools/Multiplexer/lightEpoll.cpp.i
-.PHONY : tools/Multiplexer/lightEpoll.i
-
-# target to preprocess a source file
-tools/Multiplexer/lightEpoll.cpp.i:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.i
-.PHONY : tools/Multiplexer/lightEpoll.cpp.i
-
-tools/Multiplexer/lightEpoll.s: tools/Multiplexer/lightEpoll.cpp.s
-.PHONY : tools/Multiplexer/lightEpoll.s
-
-# target to generate assembly for a file
-tools/Multiplexer/lightEpoll.cpp.s:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.s
-.PHONY : tools/Multiplexer/lightEpoll.cpp.s
-
 tools/Sockets/SockTraits.o: tools/Sockets/SockTraits.cpp.o
 .PHONY : tools/Sockets/SockTraits.o
 
@@ -297,12 +249,6 @@ help:
 	@echo "... src/Server/Server.o"
 	@echo "... src/Server/Server.i"
 	@echo "... src/Server/Server.s"
-	@echo "... tools/Multiplexer/epoll.o"
-	@echo "... tools/Multiplexer/epoll.i"
-	@echo "... tools/Multiplexer/epoll.s"
-	@echo "... tools/Multiplexer/lightEpoll.o"
-	@echo "... tools/Multiplexer/lightEpoll.i"
-	@echo "... tools/Multiplexer/lightEpoll.s"
 	@echo "... tools/Sockets/SockTraits.o"
 	@echo "... tools/Sockets/SockTraits.i"
 	@echo "... tools/Sockets/SockTraits.s"

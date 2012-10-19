@@ -3,8 +3,6 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o"
   "CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o"
   "CMakeFiles/Sophie.dir/src/Server/Server.cpp.o"
-  "CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o"
-  "CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o"
   "CMakeFiles/Sophie.dir/main.cpp.o"
   "Sophie.pdb"
   "Sophie"

@@ -141,55 +141,9 @@ CMakeFiles/Sophie.dir/src/Server/Server.cpp.o.provides: CMakeFiles/Sophie.dir/sr
 
 CMakeFiles/Sophie.dir/src/Server/Server.cpp.o.provides.build: CMakeFiles/Sophie.dir/src/Server/Server.cpp.o
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: CMakeFiles/Sophie.dir/flags.make
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: tools/Multiplexer/epoll.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/epoll.cpp
-
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/epoll.cpp > CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.i
-
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/epoll.cpp -o CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.s
-
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.requires:
-.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.requires
-
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.provides: CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.provides.build
-.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.provides
-
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.provides.build: CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o
-
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: CMakeFiles/Sophie.dir/flags.make
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: tools/Multiplexer/lightEpoll.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/lightEpoll.cpp
-
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/lightEpoll.cpp > CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.i
-
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/lightEpoll.cpp -o CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.s
-
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.requires:
-.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.requires
-
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.provides: CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.provides.build
-.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.provides
-
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.provides.build: CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o
-
 CMakeFiles/Sophie.dir/main.cpp.o: CMakeFiles/Sophie.dir/flags.make
 CMakeFiles/Sophie.dir/main.cpp.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/main.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/main.cpp
 
@@ -216,8 +170,6 @@ Sophie_OBJECTS = \
 "CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o" \
 "CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o" \
 "CMakeFiles/Sophie.dir/src/Server/Server.cpp.o" \
-"CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o" \
-"CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o" \
 "CMakeFiles/Sophie.dir/main.cpp.o"
 
 # External object files for target Sophie
@@ -227,8 +179,6 @@ Sophie: CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o
 Sophie: CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o
 Sophie: CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o
 Sophie: CMakeFiles/Sophie.dir/src/Server/Server.cpp.o
-Sophie: CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o
-Sophie: CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o
 Sophie: CMakeFiles/Sophie.dir/main.cpp.o
 Sophie: CMakeFiles/Sophie.dir/build.make
 Sophie: CMakeFiles/Sophie.dir/link.txt
@@ -243,8 +193,6 @@ CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.c
 CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.requires
 CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o.requires
 CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/src/Server/Server.cpp.o.requires
-CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.requires
-CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.requires
 CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/main.cpp.o.requires
 .PHONY : CMakeFiles/Sophie.dir/requires
 

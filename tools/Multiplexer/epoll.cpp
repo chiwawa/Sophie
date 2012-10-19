@@ -58,10 +58,21 @@ namespace Tools
   void	Multiplexer::addSocket(Network::ISocket* s, const IMultiplexer::flag flag)
   {
     socketCallback	*socket = new socketCallback;
+    socketCallback	*current;
 
+    std::cout << "addSocket : mInstance "<< std::hex << _cbTab[flag]  << std::endl;
     socket->callback = _cbTab[flag];
     socket->socket = s;
-    _evTab[flag].data.ptr = (void*)socket;
+
+
+
+    std::cout << "socket->callback =----------> " << socket->callback << std::endl;
+
+
+
+    _evTab[flag].data.ptr = reinterpret_cast<void*>(socket);
+    current = reinterpret_cast<socketCallback*>(_evTab[flag].data.ptr);
+  std::cout << "ptr ---> " << _evTab[flag].data.ptr << std::endl;
 
     _polled.push_back(socket);
     if (epoll_ctl(this->_efd, EPOLL_CTL_ADD, s->getDescriptor(), &_evTab[flag]) < 0)
@@ -122,28 +133,15 @@ namespace Tools
 
     for (int index = 0;index < _resNbr; ++index)
       {
-	std::cout << "index == " << index << std::endl;
 	current = reinterpret_cast<socketCallback*>(_eventsRes[index].data.ptr);
-	current->callback = reinterpret_cast<ioCallback*>(_eventsRes[index].data.ptr);
-	current->socket = reinterpret_cast<Network::ISocket*>(_eventsRes[index].data.ptr);
 	if (!(_eventsRes[index].events & EPOLLHUP)
 	    && !(_eventsRes[index].events & EPOLLERR))
 	  {
-	    if (current == NULL)
-	      std::cout << "duong_a a raison --'" << std::endl;
-	    else
-	      std::cout << "Add current : " << std::hex << current << std::endl;
-
-	    if (current->callback == NULL)
-	      std::cout << "callback est null" << std::endl;
-	    else
-	      std::cout << "Add current->callback : " << std::hex << current->callback << std::endl;
-
-	    if (current->socket == NULL)
-	      std::cout << "socket est null" << std::endl;
-	    else
-	      std::cout << "Add current->socket : " << std::hex << current->socket << std::endl;
-	    //	     (*(current->callback))(current->socket);
+	    std::cout << "------->>> last added socket : " << (int)current->socket->getDescriptor() << std::endl;
+	    std::cout <<"current socket ----> " << current->socket << std::endl;
+	    std::cout <<"current ----> " << current->callback << std::endl;
+	    std::cout << "ptr current execute ----> " << _eventsRes[index].data.ptr << std::endl;
+	    (*current->callback)(current->socket);
 	  }
 	else if (_eventsRes[index].events & EPOLLERR)
 	  {
@@ -184,7 +182,7 @@ namespace Tools
     // et si il est close la et qu'on essaye de le close plus loin?
     std::list<socketCallback*>::iterator	begin = _polled.begin();
     std::list<socketCallback*>::iterator	end = _polled.end();
-	  
+
     while (begin != end)
       {
 	if ((*begin)->socket == s)

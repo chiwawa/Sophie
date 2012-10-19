@@ -111,9 +111,9 @@ public:                                                                 \
                                                                         \
   template <typename T, typename Traits<T>::Method method>              \
   inline static This		create(T* instance)                     \
-    {                                                                   \
-      return (This(instance, &caller<T, method>));                      \
-    }                                                                   \
+  {									\
+    return (This(instance, &caller<T, method>));			\
+  }									\
                                                                         \
   inline static This		create(CallerPtr func, void* param = 0) \
     {                                                                   \
@@ -121,7 +121,7 @@ public:                                                                 \
     }                                                                   \
                                                                         \
   inline R			operator()(_TN_ARGS)                    \
-    {                                                                   \
+  {    std::cout << "CallBack ----" << std::hex << this << std::endl;	\
       return ((*mCaller)(mInstance _CARGS));                            \
     }                                                                   \
                                                                         \
@@ -141,7 +141,7 @@ private:                                                                \
                                                                         \
   inline Callback(void *instance, CallerPtr ptr)                        \
     : mInstance(instance), mCaller(ptr)                                 \
-    {}                                                                  \
+  { std::cout << "this callback " << this << " mInstance " << mInstance << std::endl;} \
                                                                         \
   template <typename T, typename Traits<T>::Method method>              \
   inline static R	caller(void* instance _CTN_ARGS)                \

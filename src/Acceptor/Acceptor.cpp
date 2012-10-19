@@ -40,8 +40,12 @@ namespace Sophie {
       return false;
     }
 
+    std::cout << "ACCEPTOR IS :" << std::hex << this << std::endl;
 
     ioCallback acceptCb = ioCallback::create<Sophie::Acceptor, &Sophie::Acceptor::_accept>(this);
+    std::cout << "test __" << std::endl;
+    std::cout << "init socket == " << this->_acceptSocket << std::endl;
+    std::cout << "accpt func == " << &acceptCb << std::endl;
     this->_multiplexer = new Tools::Multiplexer(&acceptCb,
 						0,
 						getSocketLimit(),
@@ -55,11 +59,8 @@ namespace Sophie {
 
   void	Acceptor::run()
   {
-    std::cout << "avant process"<< std::endl;
     this->_multiplexer->process();
-    std::cout << "apres process"<< std::endl;
     this->_multiplexer->execute();
-    std::cout << "apres execute"<< std::endl;
   }
 }
 

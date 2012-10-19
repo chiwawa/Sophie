@@ -8,8 +8,8 @@
 
 typedef struct	t_socketCallback
 {
-  Network::ISocket	*socket;
   ioCallback		*callback;
+  Network::ISocket	*socket;
 }		socketCallback;
 
 namespace Tools

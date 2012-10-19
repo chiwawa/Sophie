@@ -1,1 +1,1 @@
-/home/labell_s/Astek/git/Sophie/CMakeFiles/Sophie.dir
+/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir

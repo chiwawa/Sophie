@@ -26,19 +26,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /usr/local/bin/cmake -E remove -f
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/labell_s/Astek/git/Sophie
+CMAKE_SOURCE_DIR = /Users/Chiwawa/Documents/cpp/SophieGit/Sophie
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/labell_s/Astek/git/Sophie
+CMAKE_BINARY_DIR = /Users/Chiwawa/Documents/cpp/SophieGit/Sophie
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Sophie.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/Sophie.dir/flags.make
 
 CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o: CMakeFiles/Sophie.dir/flags.make
 CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o: tools/Sockets/SockTraits.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/labell_s/Astek/git/Sophie/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o -c /home/labell_s/Astek/git/Sophie/tools/Sockets/SockTraits.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/SockTraits.cpp
 
 CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/labell_s/Astek/git/Sophie/tools/Sockets/SockTraits.cpp > CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/SockTraits.cpp > CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.i
 
 CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/labell_s/Astek/git/Sophie/tools/Sockets/SockTraits.cpp -o CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/SockTraits.cpp -o CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.s
 
 CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o.requires:
 .PHONY : CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o: CMakeFiles/Sophie.dir/flags.make
 CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o: tools/Sockets/TCPPolicy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/labell_s/Astek/git/Sophie/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o -c /home/labell_s/Astek/git/Sophie/tools/Sockets/TCPPolicy.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/TCPPolicy.cpp
 
 CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/labell_s/Astek/git/Sophie/tools/Sockets/TCPPolicy.cpp > CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/TCPPolicy.cpp > CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.i
 
 CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/labell_s/Astek/git/Sophie/tools/Sockets/TCPPolicy.cpp -o CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/TCPPolicy.cpp -o CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.s
 
 CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.requires:
 .PHONY : CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.requires
@@ -97,17 +97,17 @@ CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.provides.build: CMakeFiles/S
 
 CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o: CMakeFiles/Sophie.dir/flags.make
 CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o: src/Acceptor/Acceptor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/labell_s/Astek/git/Sophie/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o -c /home/labell_s/Astek/git/Sophie/src/Acceptor/Acceptor.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/src/Acceptor/Acceptor.cpp
 
 CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/labell_s/Astek/git/Sophie/src/Acceptor/Acceptor.cpp > CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/src/Acceptor/Acceptor.cpp > CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.i
 
 CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/labell_s/Astek/git/Sophie/src/Acceptor/Acceptor.cpp -o CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/src/Acceptor/Acceptor.cpp -o CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.s
 
 CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o.requires:
 .PHONY : CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o.requires
@@ -120,17 +120,17 @@ CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o.provides.build: CMakeFiles/Sop
 
 CMakeFiles/Sophie.dir/src/Server/Server.cpp.o: CMakeFiles/Sophie.dir/flags.make
 CMakeFiles/Sophie.dir/src/Server/Server.cpp.o: src/Server/Server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/labell_s/Astek/git/Sophie/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/src/Server/Server.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/src/Server/Server.cpp.o -c /home/labell_s/Astek/git/Sophie/src/Server/Server.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/src/Server/Server.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/src/Server/Server.cpp
 
 CMakeFiles/Sophie.dir/src/Server/Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/src/Server/Server.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/labell_s/Astek/git/Sophie/src/Server/Server.cpp > CMakeFiles/Sophie.dir/src/Server/Server.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/src/Server/Server.cpp > CMakeFiles/Sophie.dir/src/Server/Server.cpp.i
 
 CMakeFiles/Sophie.dir/src/Server/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/src/Server/Server.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/labell_s/Astek/git/Sophie/src/Server/Server.cpp -o CMakeFiles/Sophie.dir/src/Server/Server.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/src/Server/Server.cpp -o CMakeFiles/Sophie.dir/src/Server/Server.cpp.s
 
 CMakeFiles/Sophie.dir/src/Server/Server.cpp.o.requires:
 .PHONY : CMakeFiles/Sophie.dir/src/Server/Server.cpp.o.requires
@@ -141,65 +141,65 @@ CMakeFiles/Sophie.dir/src/Server/Server.cpp.o.provides: CMakeFiles/Sophie.dir/sr
 
 CMakeFiles/Sophie.dir/src/Server/Server.cpp.o.provides.build: CMakeFiles/Sophie.dir/src/Server/Server.cpp.o
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: CMakeFiles/Sophie.dir/flags.make
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: tools/Multiplexer/epoll.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/labell_s/Astek/git/Sophie/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o -c /home/labell_s/Astek/git/Sophie/tools/Multiplexer/epoll.cpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o: CMakeFiles/Sophie.dir/flags.make
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o: tools/Multiplexer/kqueue.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/kqueue.cpp
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/labell_s/Astek/git/Sophie/tools/Multiplexer/epoll.cpp > CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.i
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/kqueue.cpp > CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.i
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/labell_s/Astek/git/Sophie/tools/Multiplexer/epoll.cpp -o CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.s
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/kqueue.cpp -o CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.s
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.requires:
-.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.requires
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o.requires:
+.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o.requires
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.provides: CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.provides.build
-.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.provides
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o.provides: CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o.provides.build
+.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o.provides
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.provides.build: CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o.provides.build: CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: CMakeFiles/Sophie.dir/flags.make
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: tools/Multiplexer/lightEpoll.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/labell_s/Astek/git/Sophie/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o -c /home/labell_s/Astek/git/Sophie/tools/Multiplexer/lightEpoll.cpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o: CMakeFiles/Sophie.dir/flags.make
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o: tools/Multiplexer/lightKqueue.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/lightKqueue.cpp
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/labell_s/Astek/git/Sophie/tools/Multiplexer/lightEpoll.cpp > CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.i
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/lightKqueue.cpp > CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.i
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/labell_s/Astek/git/Sophie/tools/Multiplexer/lightEpoll.cpp -o CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.s
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/lightKqueue.cpp -o CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.s
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.requires:
-.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.requires
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o.requires:
+.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o.requires
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.provides: CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.provides.build
-.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.provides
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o.provides: CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o.provides.build
+.PHONY : CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o.provides
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.provides.build: CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o.provides.build: CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o
 
 CMakeFiles/Sophie.dir/main.cpp.o: CMakeFiles/Sophie.dir/flags.make
 CMakeFiles/Sophie.dir/main.cpp.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/labell_s/Astek/git/Sophie/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Sophie.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/main.cpp.o -c /home/labell_s/Astek/git/Sophie/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Sophie.dir/main.cpp.o -c /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/main.cpp
 
 CMakeFiles/Sophie.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sophie.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/labell_s/Astek/git/Sophie/main.cpp > CMakeFiles/Sophie.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/main.cpp > CMakeFiles/Sophie.dir/main.cpp.i
 
 CMakeFiles/Sophie.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sophie.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/labell_s/Astek/git/Sophie/main.cpp -o CMakeFiles/Sophie.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/main.cpp -o CMakeFiles/Sophie.dir/main.cpp.s
 
 CMakeFiles/Sophie.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/Sophie.dir/main.cpp.o.requires
@@ -216,8 +216,8 @@ Sophie_OBJECTS = \
 "CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o" \
 "CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o" \
 "CMakeFiles/Sophie.dir/src/Server/Server.cpp.o" \
-"CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o" \
-"CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o" \
+"CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o" \
+"CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o" \
 "CMakeFiles/Sophie.dir/main.cpp.o"
 
 # External object files for target Sophie
@@ -227,8 +227,8 @@ Sophie: CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o
 Sophie: CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o
 Sophie: CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o
 Sophie: CMakeFiles/Sophie.dir/src/Server/Server.cpp.o
-Sophie: CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o
-Sophie: CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o
+Sophie: CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o
+Sophie: CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o
 Sophie: CMakeFiles/Sophie.dir/main.cpp.o
 Sophie: CMakeFiles/Sophie.dir/build.make
 Sophie: CMakeFiles/Sophie.dir/link.txt
@@ -243,8 +243,8 @@ CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.c
 CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Sockets/TCPPolicy.cpp.o.requires
 CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/src/Acceptor/Acceptor.cpp.o.requires
 CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/src/Server/Server.cpp.o.requires
-CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o.requires
-CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o.requires
+CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o.requires
+CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o.requires
 CMakeFiles/Sophie.dir/requires: CMakeFiles/Sophie.dir/main.cpp.o.requires
 .PHONY : CMakeFiles/Sophie.dir/requires
 
@@ -253,6 +253,6 @@ CMakeFiles/Sophie.dir/clean:
 .PHONY : CMakeFiles/Sophie.dir/clean
 
 CMakeFiles/Sophie.dir/depend:
-	cd /home/labell_s/Astek/git/Sophie && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/labell_s/Astek/git/Sophie /home/labell_s/Astek/git/Sophie /home/labell_s/Astek/git/Sophie /home/labell_s/Astek/git/Sophie /home/labell_s/Astek/git/Sophie/CMakeFiles/Sophie.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Chiwawa/Documents/cpp/SophieGit/Sophie && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Chiwawa/Documents/cpp/SophieGit/Sophie /Users/Chiwawa/Documents/cpp/SophieGit/Sophie /Users/Chiwawa/Documents/cpp/SophieGit/Sophie /Users/Chiwawa/Documents/cpp/SophieGit/Sophie /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/Sophie.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Sophie.dir/depend
 

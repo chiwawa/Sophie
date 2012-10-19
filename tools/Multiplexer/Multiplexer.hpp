@@ -6,6 +6,11 @@
   #include "kqueue.h"
   #include "lightKqueue.h"
 
+#elif defined(__APPLE__) || defined(MACOSX) || defined(macintosh) || defined(Macintosh)
+  #define __BSD_MULTIPLEXER
+  #include "kqueue.h"
+  #include "lightKqueue.h"
+
 #elif defined(__OpenBSD__) || defined(__OpenBSD_kernel__)
   #define __BSD__MULTIPLEXER__
   #include "kqueue.h"
@@ -19,11 +24,6 @@
 #elif defined(_WIN32) || defined(__WIN32__)
   #define __WIN_MULTIPLEXER
   #include "select.h"
-
-#elif defined(__APPLE__) || defined(MACOSX) || defined(macintosh) || defined(Macintosh)
-  #define __BSD_MULTIPLEXER
-  #include "kqueue.h"
-  #include "lightKqueue.h"
 
 #else
   #error "Can't config Multiplexer : uknown Operating system"

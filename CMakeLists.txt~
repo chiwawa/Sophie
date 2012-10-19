@@ -8,8 +8,7 @@ include_directories("includes/")
 include_directories("tools/")
 
 SET(SYSTEM_NAME "${SYSTEM_NAME}" CACHE INTERNAL "")
-
-MESSAGE("TEST "  ${SYSTEM_NAME})
+MESSAGE(${SYSTEM_NAME})
 
 IF (WIN32)
   set (MULTIPLEXER
@@ -29,15 +28,13 @@ ELSE (WIN32)
   ENDIF (${SYSTEM_NAME} STREQUAL "Linux")
 
   IF (${SYSTEM_NAME} STREQUAL "FreeBSD")
-     MESSAGE("----BSD")
-  ENDIF (${SYSTEM_NAME} STREQUAL "FreeBSD")
-
-  IF (APPLE)
     MESSAGE("------------------------ FREEBSD compilation")
     set (MULTIPLEXER
       tools/Multiplexer/kqueue.cpp)
     set (LIGHT_MULTIPLEXER
       tools/Multiplexer/lightKqueue.cpp)
+    set (CMAKE_CXX_COMPILER
+      /usr/local/bin/g++44)
   ENDIF (${SYSTEM_NAME} STREQUAL "FreeBSD")
 ENDIf (WIN32)
 

@@ -28,7 +28,7 @@ namespace Tools
     void			addSockets(const std::list<Network::ISocket*>&, const IMultiplexer::flag = IMultiplexer::READ);
     void			addSockets(const std::list<Network::ISocket*>&, ioCallback&, const IMultiplexer::flag = IMultiplexer::READ);
     void			clear(const IMultiplexer::flag = IMultiplexer::READ);
-    int				process(void);
+    int			process(void);
     void			execute(void);
 
   private:

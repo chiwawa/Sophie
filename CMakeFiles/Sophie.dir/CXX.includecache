@@ -6,17 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/labell_s/Astek/git/Sophie/tools/Multiplexer/epoll.cpp
-algorithm
+/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/kqueue.cpp
+sys/types.h
+-
+sys/event.h
+-
+sys/time.h
+-
+map
 -
 cstdio
 -
-unistd.h
+cstring
+-
+algorithm
+-
+Multiplexer/kqueue.h
+/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/Multiplexer/kqueue.h
+
+/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/lightKqueue.cpp
+cstdio
 -
 cstring
 -
-Multiplexer/epoll.h
-/home/labell_s/Astek/git/Sophie/tools/Multiplexer/Multiplexer/epoll.h
+sys/types.h
+-
+sys/event.h
+-
+sys/time.h
+-
+Multiplexer/IMultiplexer.hpp
+/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/Multiplexer/IMultiplexer.hpp
+Multiplexer/lightKqueue.h
+/Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/Multiplexer/lightKqueue.h
 
 tools/Callback/Callback.hpp
 defines.hpp
@@ -34,11 +56,17 @@ tools/Multiplexer/Sockets/TCPPolicy.hpp
 Callback/Callback.hpp
 tools/Multiplexer/Callback/Callback.hpp
 
-tools/Multiplexer/epoll.h
-sys/epoll.h
+tools/Multiplexer/kqueue.h
+map
 -
 Multiplexer/IMultiplexer.hpp
 tools/Multiplexer/Multiplexer/IMultiplexer.hpp
+Sockets/Socket.hpp
+tools/Multiplexer/Sockets/Socket.hpp
+Sockets/TCPPolicy.hpp
+tools/Multiplexer/Sockets/TCPPolicy.hpp
+
+tools/Multiplexer/lightKqueue.h
 Sockets/Socket.hpp
 tools/Multiplexer/Sockets/Socket.hpp
 Sockets/TCPPolicy.hpp

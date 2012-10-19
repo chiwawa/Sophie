@@ -39,25 +39,25 @@ CMakeFiles/Sophie.dir/src/Server/Server.cpp.o: tools/Sockets/SockTraits.hpp
 CMakeFiles/Sophie.dir/src/Server/Server.cpp.o: tools/Sockets/Socket.hpp
 CMakeFiles/Sophie.dir/src/Server/Server.cpp.o: tools/Sockets/TCPPolicy.hpp
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: tools/Multiplexer/epoll.cpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: tools/Callback/Callback.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: tools/Callback/defines.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: tools/Multiplexer/IMultiplexer.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: tools/Multiplexer/epoll.h
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: tools/Sockets/ISocket.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: tools/Sockets/SockTraits.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: tools/Sockets/Socket.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o: tools/Sockets/TCPPolicy.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o: tools/Multiplexer/kqueue.cpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o: tools/Callback/Callback.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o: tools/Callback/defines.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o: tools/Multiplexer/IMultiplexer.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o: tools/Multiplexer/kqueue.h
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o: tools/Sockets/ISocket.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o: tools/Sockets/SockTraits.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o: tools/Sockets/Socket.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o: tools/Sockets/TCPPolicy.hpp
 
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: tools/Multiplexer/lightEpoll.cpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: tools/Callback/Callback.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: tools/Callback/defines.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: tools/Multiplexer/IMultiplexer.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: tools/Multiplexer/lightEpoll.h
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: tools/Sockets/ISocket.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: tools/Sockets/SockTraits.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: tools/Sockets/Socket.hpp
-CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o: tools/Sockets/TCPPolicy.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o: tools/Multiplexer/lightKqueue.cpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o: tools/Callback/Callback.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o: tools/Callback/defines.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o: tools/Multiplexer/IMultiplexer.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o: tools/Multiplexer/lightKqueue.h
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o: tools/Sockets/ISocket.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o: tools/Sockets/SockTraits.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o: tools/Sockets/Socket.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o: tools/Sockets/TCPPolicy.hpp
 
 CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o: tools/Sockets/SockTraits.cpp
 CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o: tools/Sockets/SockTraits.hpp

@@ -50,7 +50,7 @@ namespace Sophie {
 						0,
 						getSocketLimit(),
 						-1);
-    
+    std::cout << "multiplexer created " << std::endl;
     this->_acceptSocket->listen(MAX_CLIENT);
     this->_multiplexer->addSocket(this->_acceptSocket, Tools::IMultiplexer::READ);
 

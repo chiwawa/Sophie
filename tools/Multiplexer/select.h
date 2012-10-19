@@ -22,13 +22,11 @@ typedef struct	t_socketCallback
   ioCallback	*callback;
 }		socketCallback;
 
-namespace zia
+namespace Tools
 {
-  namespace Tools
-    {
-
-      class Multiplexer : public IMultiplexer
-      {
+  
+  class Multiplexer : public IMultiplexer
+  {
 
       public:
 	Multiplexer(
@@ -62,6 +60,5 @@ namespace zia
 	ioCallback*				_cbTab[2];
       };
     }
-}
 
 #endif /* !MULTIPLEXER_H_ */

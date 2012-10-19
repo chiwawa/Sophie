@@ -56,7 +56,7 @@ private:
 	static unsigned int	_socknumb;
 
 #else //if UNIX / Linux
-    typedef int		SockDescriptor;
+    typedef long	SockDescriptor;
     enum SockFlags
       {
 	NO_INTERRUPT = MSG_NOSIGNAL

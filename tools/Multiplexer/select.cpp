@@ -3,8 +3,6 @@
 #include <iostream>
 #include "Multiplexer/select.h"
 
-namespace zia
-{
   namespace Tools
     {
 
@@ -12,12 +10,13 @@ namespace zia
 	  ioCallback* write,
 	  int maxNbr,
 	  int timeOut)
-	: _max(0)
-	  {
-	    (void)maxNbr;
-	    FD_ZERO(&_permanent);
-	    FD_ZERO(&_read);
-	    FD_ZERO(&_write);
+	// : _max(0)
+      {
+	std::cout << "Constructeur multi" << std::endl;
+	this->_max = 0;
+	    // FD_ZERO(&_permanent);
+	    // FD_ZERO(&_read);
+	    // FD_ZERO(&_write);
 	    _cbTab[IMultiplexer::READ] = read;
 	    _cbTab[IMultiplexer::WRITE] = write;
 	    _timeout.tv_sec = timeOut;
@@ -146,5 +145,4 @@ namespace zia
 	  addSocket(s, cb, flag);
 	}
 
-    }
-}
+  }

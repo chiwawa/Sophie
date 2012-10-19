@@ -30,19 +30,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Chiwawa/Documents/cpp/SophieGit/Sophie
+CMAKE_SOURCE_DIR = /home/labell_s/Astek/git/Sophie
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Chiwawa/Documents/cpp/SophieGit/Sophie
+CMAKE_BINARY_DIR = /home/labell_s/Astek/git/Sophie
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -50,7 +50,7 @@ CMAKE_BINARY_DIR = /Users/Chiwawa/Documents/cpp/SophieGit/Sophie
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -60,7 +60,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/labell_s/Astek/git/Sophie/CMakeFiles /home/labell_s/Astek/git/Sophie/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/labell_s/Astek/git/Sophie/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -183,53 +183,53 @@ src/Server/Server.cpp.s:
 	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/src/Server/Server.cpp.s
 .PHONY : src/Server/Server.cpp.s
 
-tools/Multiplexer/kqueue.o: tools/Multiplexer/kqueue.cpp.o
-.PHONY : tools/Multiplexer/kqueue.o
+tools/Multiplexer/epoll.o: tools/Multiplexer/epoll.cpp.o
+.PHONY : tools/Multiplexer/epoll.o
 
 # target to build an object file
-tools/Multiplexer/kqueue.cpp.o:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o
-.PHONY : tools/Multiplexer/kqueue.cpp.o
+tools/Multiplexer/epoll.cpp.o:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.o
+.PHONY : tools/Multiplexer/epoll.cpp.o
 
-tools/Multiplexer/kqueue.i: tools/Multiplexer/kqueue.cpp.i
-.PHONY : tools/Multiplexer/kqueue.i
+tools/Multiplexer/epoll.i: tools/Multiplexer/epoll.cpp.i
+.PHONY : tools/Multiplexer/epoll.i
 
 # target to preprocess a source file
-tools/Multiplexer/kqueue.cpp.i:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.i
-.PHONY : tools/Multiplexer/kqueue.cpp.i
+tools/Multiplexer/epoll.cpp.i:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.i
+.PHONY : tools/Multiplexer/epoll.cpp.i
 
-tools/Multiplexer/kqueue.s: tools/Multiplexer/kqueue.cpp.s
-.PHONY : tools/Multiplexer/kqueue.s
+tools/Multiplexer/epoll.s: tools/Multiplexer/epoll.cpp.s
+.PHONY : tools/Multiplexer/epoll.s
 
 # target to generate assembly for a file
-tools/Multiplexer/kqueue.cpp.s:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.s
-.PHONY : tools/Multiplexer/kqueue.cpp.s
+tools/Multiplexer/epoll.cpp.s:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/epoll.cpp.s
+.PHONY : tools/Multiplexer/epoll.cpp.s
 
-tools/Multiplexer/lightKqueue.o: tools/Multiplexer/lightKqueue.cpp.o
-.PHONY : tools/Multiplexer/lightKqueue.o
+tools/Multiplexer/lightEpoll.o: tools/Multiplexer/lightEpoll.cpp.o
+.PHONY : tools/Multiplexer/lightEpoll.o
 
 # target to build an object file
-tools/Multiplexer/lightKqueue.cpp.o:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o
-.PHONY : tools/Multiplexer/lightKqueue.cpp.o
+tools/Multiplexer/lightEpoll.cpp.o:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.o
+.PHONY : tools/Multiplexer/lightEpoll.cpp.o
 
-tools/Multiplexer/lightKqueue.i: tools/Multiplexer/lightKqueue.cpp.i
-.PHONY : tools/Multiplexer/lightKqueue.i
+tools/Multiplexer/lightEpoll.i: tools/Multiplexer/lightEpoll.cpp.i
+.PHONY : tools/Multiplexer/lightEpoll.i
 
 # target to preprocess a source file
-tools/Multiplexer/lightKqueue.cpp.i:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.i
-.PHONY : tools/Multiplexer/lightKqueue.cpp.i
+tools/Multiplexer/lightEpoll.cpp.i:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.i
+.PHONY : tools/Multiplexer/lightEpoll.cpp.i
 
-tools/Multiplexer/lightKqueue.s: tools/Multiplexer/lightKqueue.cpp.s
-.PHONY : tools/Multiplexer/lightKqueue.s
+tools/Multiplexer/lightEpoll.s: tools/Multiplexer/lightEpoll.cpp.s
+.PHONY : tools/Multiplexer/lightEpoll.s
 
 # target to generate assembly for a file
-tools/Multiplexer/lightKqueue.cpp.s:
-	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.s
-.PHONY : tools/Multiplexer/lightKqueue.cpp.s
+tools/Multiplexer/lightEpoll.cpp.s:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightEpoll.cpp.s
+.PHONY : tools/Multiplexer/lightEpoll.cpp.s
 
 tools/Sockets/SockTraits.o: tools/Sockets/SockTraits.cpp.o
 .PHONY : tools/Sockets/SockTraits.o
@@ -297,12 +297,12 @@ help:
 	@echo "... src/Server/Server.o"
 	@echo "... src/Server/Server.i"
 	@echo "... src/Server/Server.s"
-	@echo "... tools/Multiplexer/kqueue.o"
-	@echo "... tools/Multiplexer/kqueue.i"
-	@echo "... tools/Multiplexer/kqueue.s"
-	@echo "... tools/Multiplexer/lightKqueue.o"
-	@echo "... tools/Multiplexer/lightKqueue.i"
-	@echo "... tools/Multiplexer/lightKqueue.s"
+	@echo "... tools/Multiplexer/epoll.o"
+	@echo "... tools/Multiplexer/epoll.i"
+	@echo "... tools/Multiplexer/epoll.s"
+	@echo "... tools/Multiplexer/lightEpoll.o"
+	@echo "... tools/Multiplexer/lightEpoll.i"
+	@echo "... tools/Multiplexer/lightEpoll.s"
 	@echo "... tools/Sockets/SockTraits.o"
 	@echo "... tools/Sockets/SockTraits.i"
 	@echo "... tools/Sockets/SockTraits.s"

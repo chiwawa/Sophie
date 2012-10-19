@@ -39,6 +39,26 @@ CMakeFiles/Sophie.dir/src/Server/Server.cpp.o
  tools/Sockets/SockTraits.hpp
  tools/Sockets/Socket.hpp
  tools/Sockets/TCPPolicy.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o
+ /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/kqueue.cpp
+ tools/Callback/Callback.hpp
+ tools/Callback/defines.hpp
+ tools/Multiplexer/IMultiplexer.hpp
+ tools/Multiplexer/kqueue.h
+ tools/Sockets/ISocket.hpp
+ tools/Sockets/SockTraits.hpp
+ tools/Sockets/Socket.hpp
+ tools/Sockets/TCPPolicy.hpp
+CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o
+ /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Multiplexer/lightKqueue.cpp
+ tools/Callback/Callback.hpp
+ tools/Callback/defines.hpp
+ tools/Multiplexer/IMultiplexer.hpp
+ tools/Multiplexer/lightKqueue.h
+ tools/Sockets/ISocket.hpp
+ tools/Sockets/SockTraits.hpp
+ tools/Sockets/Socket.hpp
+ tools/Sockets/TCPPolicy.hpp
 CMakeFiles/Sophie.dir/tools/Sockets/SockTraits.cpp.o
  /Users/Chiwawa/Documents/cpp/SophieGit/Sophie/tools/Sockets/SockTraits.cpp
  tools/Sockets/SockTraits.hpp

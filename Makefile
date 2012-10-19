@@ -183,6 +183,54 @@ src/Server/Server.cpp.s:
 	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/src/Server/Server.cpp.s
 .PHONY : src/Server/Server.cpp.s
 
+tools/Multiplexer/kqueue.o: tools/Multiplexer/kqueue.cpp.o
+.PHONY : tools/Multiplexer/kqueue.o
+
+# target to build an object file
+tools/Multiplexer/kqueue.cpp.o:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.o
+.PHONY : tools/Multiplexer/kqueue.cpp.o
+
+tools/Multiplexer/kqueue.i: tools/Multiplexer/kqueue.cpp.i
+.PHONY : tools/Multiplexer/kqueue.i
+
+# target to preprocess a source file
+tools/Multiplexer/kqueue.cpp.i:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.i
+.PHONY : tools/Multiplexer/kqueue.cpp.i
+
+tools/Multiplexer/kqueue.s: tools/Multiplexer/kqueue.cpp.s
+.PHONY : tools/Multiplexer/kqueue.s
+
+# target to generate assembly for a file
+tools/Multiplexer/kqueue.cpp.s:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/kqueue.cpp.s
+.PHONY : tools/Multiplexer/kqueue.cpp.s
+
+tools/Multiplexer/lightKqueue.o: tools/Multiplexer/lightKqueue.cpp.o
+.PHONY : tools/Multiplexer/lightKqueue.o
+
+# target to build an object file
+tools/Multiplexer/lightKqueue.cpp.o:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.o
+.PHONY : tools/Multiplexer/lightKqueue.cpp.o
+
+tools/Multiplexer/lightKqueue.i: tools/Multiplexer/lightKqueue.cpp.i
+.PHONY : tools/Multiplexer/lightKqueue.i
+
+# target to preprocess a source file
+tools/Multiplexer/lightKqueue.cpp.i:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.i
+.PHONY : tools/Multiplexer/lightKqueue.cpp.i
+
+tools/Multiplexer/lightKqueue.s: tools/Multiplexer/lightKqueue.cpp.s
+.PHONY : tools/Multiplexer/lightKqueue.s
+
+# target to generate assembly for a file
+tools/Multiplexer/lightKqueue.cpp.s:
+	$(MAKE) -f CMakeFiles/Sophie.dir/build.make CMakeFiles/Sophie.dir/tools/Multiplexer/lightKqueue.cpp.s
+.PHONY : tools/Multiplexer/lightKqueue.cpp.s
+
 tools/Sockets/SockTraits.o: tools/Sockets/SockTraits.cpp.o
 .PHONY : tools/Sockets/SockTraits.o
 
@@ -249,6 +297,12 @@ help:
 	@echo "... src/Server/Server.o"
 	@echo "... src/Server/Server.i"
 	@echo "... src/Server/Server.s"
+	@echo "... tools/Multiplexer/kqueue.o"
+	@echo "... tools/Multiplexer/kqueue.i"
+	@echo "... tools/Multiplexer/kqueue.s"
+	@echo "... tools/Multiplexer/lightKqueue.o"
+	@echo "... tools/Multiplexer/lightKqueue.i"
+	@echo "... tools/Multiplexer/lightKqueue.s"
 	@echo "... tools/Sockets/SockTraits.o"
 	@echo "... tools/Sockets/SockTraits.i"
 	@echo "... tools/Sockets/SockTraits.s"

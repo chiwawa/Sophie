@@ -8,11 +8,13 @@
 #include "Multiplexer/IMultiplexer.hpp"
 #include "Multiplexer/lightKqueue.h"
 
-namespace Tools
+namespace zia
 {
-  static const int	__flagTab[2] = {EVFILT_READ, EVFILT_WRITE};
+  namespace Tools
+    {
+      static const int	__flagTab[2] = {EVFILT_READ, EVFILT_WRITE};
 
-  lightMultiplexer::lightMultiplexer(IMultiplexer::flag flag,
+      lightMultiplexer::lightMultiplexer(IMultiplexer::flag flag,
 					ioCallback* cb,
 					Network::ISocket* s,
 					int timeout)
@@ -88,4 +90,5 @@ namespace Tools
 	  else
 	    (*_callback)(_socket);
 	}
+    }
 }

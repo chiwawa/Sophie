@@ -14,33 +14,31 @@ static void	_deleteSocketCallback(const socketCallback* socket)
   delete socket;
 }
 
-namespace zia
+namespace Tools
 {
-  namespace Tools
-    {
-            Multiplexer::Multiplexer(ioCallback* read,
-			       ioCallback* write,
-			       int maxClient,
-			       int timeout)
-	: _evlist(0), _socketNbr(0), _maxClient(maxClient)
-	{
-	  if ((_queueFd = kqueue()) < 0)
-	    perror("kqueue");
-	  _flag[IMultiplexer::READ] = EVFILT_READ;
-	  _flag[IMultiplexer::WRITE] = EVFILT_WRITE;
-	  _cbTab[IMultiplexer::READ] = read;
-	  _cbTab[IMultiplexer::WRITE] = write;
-	  _scklist = new struct kevent[maxClient];
-	  _evlist = new struct kevent[maxClient];
-	  _setTable();
+  Multiplexer::Multiplexer(ioCallback* read,
+			   ioCallback* write,
+			   int maxClient,
+			   int timeout)
+    : _evlist(0), _socketNbr(0), _maxClient(maxClient)
+  {
+    if ((_queueFd = kqueue()) < 0)
+      perror("kqueue");
+    _flag[IMultiplexer::READ] = EVFILT_READ;
+    _flag[IMultiplexer::WRITE] = EVFILT_WRITE;
+    _cbTab[IMultiplexer::READ] = read;
+    _cbTab[IMultiplexer::WRITE] = write;
+    _scklist = new struct kevent[maxClient];
+    _evlist = new struct kevent[maxClient];
+    _setTable();
 
-	  if (timeout != -1)
-	    {
-	      _timeOut = new struct timespec;
-	      _timeOut->tv_sec = timeout;
-	      _timeOut->tv_nsec = 0;
-	    }
-	  else
+    if (timeout != -1)
+      {
+	_timeOut = new struct timespec;
+	_timeOut->tv_sec = timeout;
+	_timeOut->tv_nsec = 0;
+      }
+    else
 	    _timeOut = 0;
 	}
 
@@ -55,7 +53,7 @@ namespace zia
 	}
 
       Multiplexer::Multiplexer(const Multiplexer&)
-	: zia::Tools::IMultiplexer()
+	: Tools::IMultiplexer()
 	{
 	  ;
 	}
@@ -203,4 +201,3 @@ namespace zia
 	      EV_SET(&_scklist[index], 0, 0, 0, 0, 0, 0);
 	  }
     }
-}

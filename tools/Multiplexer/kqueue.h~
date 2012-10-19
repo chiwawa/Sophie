@@ -1,7 +1,6 @@
 #ifndef __KQUEUE__
 #define __KQUEUE__
 
-# include <map>
 # include "Multiplexer/IMultiplexer.hpp"
 # include "Sockets/Socket.hpp"
 # include "Sockets/TCPPolicy.hpp"

@@ -6,9 +6,7 @@ set(CMAKE_EXE_LINKER_FLAGS "-ggdb")
 
 include_directories("includes/")
 include_directories("tools/")
-include_directories("/usr/include/")
 
-link_directories("/lib/")
 
 add_executable(	Sophie
 		tools/Sockets/SockTraits.cpp
